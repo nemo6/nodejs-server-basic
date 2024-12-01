@@ -10,7 +10,7 @@ http.createServer(function (req, res) {
 	
 	res.writeHead(200,{"content-type":"text/html;charset=utf8"})
 
-	res.end("test")
+	res.end("hello")
 
 }).listen(port)
 
